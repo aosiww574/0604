@@ -235,8 +235,12 @@
                         }
                     }
 
-                    p {
+                    .mark {
                         color: #FD4E00;
+
+                        &:hover {
+                            color: #fff;
+                        }
                     }
                 }
 

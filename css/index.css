@@ -247,8 +247,12 @@
   background-color: #FD4E00;
 }
 
-.part1-wrapper .part1 .left .left-3 .qrcode p {
+.part1-wrapper .part1 .left .left-3 .qrcode .mark {
   color: #FD4E00;
+}
+
+.part1-wrapper .part1 .left .left-3 .qrcode .mark:hover {
+  color: #fff;
 }
 
 .part1-wrapper .part1 .left .left-3 .img-wrapper {
