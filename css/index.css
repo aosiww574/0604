@@ -238,7 +238,6 @@
   text-align: center;
   border: 1px solid #FD4E00;
   border-radius: 3px;
-  color: #FD4E00;
   display: block;
   text-decoration: none;
 }
@@ -246,6 +245,10 @@
 .part1-wrapper .part1 .left .left-3 .qrcode a:hover {
   color: #fff;
   background-color: #FD4E00;
+}
+
+.part1-wrapper .part1 .left .left-3 .qrcode p {
+  color: #FD4E00;
 }
 
 .part1-wrapper .part1 .left .left-3 .img-wrapper {
@@ -294,14 +297,12 @@
 
 .part2-wrapper .left .col1 {
   -ms-flex-item-align: start;
-      -ms-grid-row-align: start;
-      align-self: start;
+      align-self: flex-start;
 }
 
 .part2-wrapper .left .col2 {
   -ms-flex-item-align: end;
-      -ms-grid-row-align: end;
-      align-self: end;
+      align-self: flex-end;
 }
 
 .part2-wrapper .left .col {
